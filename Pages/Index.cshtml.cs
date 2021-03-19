@@ -21,5 +21,10 @@ namespace hello_world.Pages
         {
 
         }
+
+        public void onPost()
+        {
+
+        }
     }
 }

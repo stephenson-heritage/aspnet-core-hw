@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,17 +8,23 @@ using Microsoft.Extensions.Logging;
 
 namespace hello_world.Pages
 {
-    public class PrivacyModel : PageModel
+    public class ContactModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<ContactModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public ContactModel(ILogger<ContactModel> logger)
         {
             _logger = logger;
         }
 
         public void OnGet()
         {
+
+        }
+
+        public void onPost()
+        {
+
         }
     }
 }
